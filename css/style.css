@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+
+}
+ul li{
+    list-style: none;
+}
+.navbar .left{
+float: left;
+position: absolute;
+bottom: -50px;
+left: -30px;
+
+}
+.navbar .left ul{
+    
+    margin-top:     20px;
+}
+.navbar .left ul li{
+    float: left;
+    width:80px;
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid;
+   
+}
+.navbar .left ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .right{
+    float: right;
+    margin-right: 20px;
+}
+.navbar .right i{
+   font-size: 40px;
+   margin-top: 10px;
+   color: white;
+   margin-left: 10px;
+   margin-right: 10px;
+   transition: all 1s;
+   
+}
+.navbar .right i:hover{
+    color: red;
+    transition: all 1s;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    transform: scale(1.35);
+}
+/* //////nav2 */
+.navbar2{
+   width: 100%;
+   height: 80px;
+   background-color: rgb(255, 255, 255);
+   
+}
+.navbar2 ul{
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    /* border-bottom: 4px solid; */
+    list-style: none;
+    position: relative;
+}
+.navbar2 ul li{
+    width: 150px;
+    margin-left: 10px;
+    /* border-bottom: 5px solid; */
+}
+.navbar2 ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 100%;
+    display: block;
+    text-align: center;
+    color: rgb(29, 29, 29);
+}
+.navbar2 ul li a:hover{
+    padding-bottom: 30px;
+    color: #666;
+   border-bottom: 5px solid rgb(0, 0, 0);
+}
+hr{
+    height: 8px;
+    background-color: rgb(211, 211, 211);
+   
+    border: none;
+    box-shadow: -3px -1px 24px;
+}
+
+/* ////info1 */
+.info1{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.info1 .left{
+    float: left;
+    margin-left: 20px;
+    height: 160px;
+    padding-top: 45px;
+    
+}
+.info1 .left h1{
+    display: inline;
+    
+    font-size: 40px;
+}
+.info1 .left span{
+    padding-top: 30px;
+}
+.info1 .right{
+    float: right;
+    height: 160px;
+    padding-top: 50px;
+    margin-right: 40px;
+}
+.info1 .right input{
+    padding: 10px 20px;
+    padding-right: 90px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 232, 232);
+}
+.info1 .right a{
+    /* border: 1px solid; */
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 255);
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: all 1s;
+}
+.info1 .right a:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+/* ////info1 */
+.pic{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    background-color: rgb(236, 232, 232);
+}
+.pic .left{
+    width: 70%;
+    
+    padding-left: 70px;
+   padding-top: 140px;
+   padding-right: 100px;
+   /* border: 1px solid; */
+}
+.pic .left h1{
+    font-size: 50px;
+    font-weight: 300;
+}.pic .left p{
+    margin-top: 30px;
+    line-height: 1.4;
+
+}
+.pic .left a{
+    /* border: 1px solid; */
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(15, 119, 255);
+    transition: all 1s;
+    
+}
+.pic .left a:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+.pic .right{
+    width: 50%;
+  float: right;
+  /* margin-left: 400px; */
+  /* border: 1px solid; */
+}
+.pic .right img{
+    width: 850px;
+    height: 540px;
+}
+/* ////sit */
+.sittings{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+    display: flex;
+
+}
+.sittings .phone{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+}
+.sittings .phone .out{
+    box-shadow: 28px 31px 50px;
+    width: 250px;
+    margin: auto;
+    margin-top: 70px;
+    height: 350px;
+    border-radius: 20px;
+    border: 3px solid rgb(109, 109, 109);
+    background-color: rgb(19, 18, 18);
+
+}
+.sittings .phone .out .out-off{
+    width: 200px;
+    height: 300px;
+    
+    margin: auto;
+    margin-top: 18px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(136, 136, 136);
+}
+.sittings .phone .out .bot{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 2px;
+    background-color: black;
+}
+.sittings .phone .out .bot .kich{
+    width: 10px;
+    height: 10px ;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 4px;
+}
+.out .out-off a img{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-240px);
+}
+.out .out-off a:hover img{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateX(0px);
+}
+.box{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 500px;  
+   
+}
+
+.box ul li{
+    float: left;
+    width: 50%;
+    height: 250px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+.box ul li a{
+    color: black;
+}
+
+.box ul li h2{
+    padding: 10px 0px;
+}
+.box ul li p{
+    line-height: 1.4;
+}
+.box ul li img{
+    width: 150px;
+}
+/* ///// */
+.text{
+    width: 96%;
+    height: 150px;
+    margin: auto;
+    background-color: rgb(207, 207, 207);
+    border-left: 10px solid rgb(0, 110, 255);
+    display: flex;
+    margin-top: 50px;
+}
+.left{
+    width: 60%;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.left h1 {
+    font-size: 40px;
+    font-weight: 600;
+    display: inline;
+    letter-spacing: 1.5px;
+}
+.left h1 span{
+    font-size: 22px;
+    font-weight: 300;
+}
+.text .right {
+    float: right;
+}
+.text .right a{
+    background-color: rgb(0, 110, 255);
+    line-height: 140px;
+    font-size: 35px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    color: rgb(207, 207, 207);
+    transition: all 1s;
+}
+.text .right a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    border-top: 10px solid ;
+    background-color: #1A1A1A;
+}
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    width: 23%;
+    height: 600px;
+    /* border: 1px solid white; */
+    margin-left: 25px;
+}
+footer ul  h2{
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    font-weight: 400;
+}
+footer ul .item1 img{
+width: 340px;
+margin-left: 20px;
+}
+footer ul .item1 p{
+    font-size: 21px;
+    padding: 20px;
+    line-height: 1.5;
+    color: #666;
+}
+footer ul .item1 a{
+    float: right;
+    color: rgb(0, 132, 255);
+    margin-right: 10px;
+}
+footer ul .item2 a{
+ font-size: 22px;
+ 
+ padding-bottom: 10px;
+ color: rgb(0, 119, 255);
+}
+.item2 hr{
+    height: 1px;
+    margin-top: 10px;
+    background-color: #666;
+}
+footer ul .item3{
+    color: #6666;
+}
+footer ul .item3 span{
+    font-size: 22px;
+}
+footer ul .item3 a{
+    float: right;
+    color: rgb(6, 88, 240);
+}
+footer ul .item4 form{
+    padding: 35px 20px ;
+}
+footer ul .item4 form input{
+    margin: 10px 0px;
+    padding: 15px 0px;
+    padding-right: 170px;
+    padding-left: 15px;
+    background-color: #232323;
+    border: none;
+    
+}
+footer ul .item4 form textarea{
+    background-color: #232323;
+    margin-top: 10px;
+    padding: 10px 0px;
+    padding-right: 125px;
+    border: none;
+}
+footer ul .item4 a{
+    /* border: 1px solid ; */
+    padding: 10px 25px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 122, 236);
+    transition: all 1s;
+}
+footer ul .item4 a:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+/* ////// */
+section{
+    width: 100%;
+    height: 80px;
+    background-color: #222222;
+    display: flex;
+    position: relative;
+}
+section .left h2{
+  font-size: 22px;
+  color: #666;
+  position: absolute;
+  top: 30px;
+}
+section .right{
+    float: right;
+}
+section .right h2{
+  font-size: 22px;
+  color: #666;
+  margin-left: 300px;
+ margin-top: 25px;
+}
